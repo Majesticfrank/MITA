@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POTFOIO</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+</head>
+<body>
+
+
+    <div class="image-header">
+        <div class="image1">
+        <img src="/IMAGES/Screenshot_20231122-213759.jpg" alt="IMAGE1">
+        <img src="/IMAGES/Screenshot_20231122-213202.jpg" alt="IMAGE4">
+        <img src="/IMAGES/image9.jpg" alt="IMAGE9">
+        </div>
+
+
+        <div class="navlinks" id="navlinks">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="Aboutus.html">About</a></li>
+                <li><a href="Service.html">Service</a></li>
+                <li><a href="Experience.html">Experiences</a></li>
+                <li><a href="Work.html">Works</a></li>
+                <li><a href="Blog.html">Blogs</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+                <button id="icon2" onclick="closeNav()"><i class="fa fa-times" aria-hidden="true"></i></button>
+            </ul>
+          
+        </div>
+
+
+    </div>
+
+    <button id="icon" onclick="openNav()"> <i class="fa fa-bars" aria-hidden="false"></i></button>
+
+
+
+    <div class="logo">
+        <img src="IMAGES/royal1.png" alt="">
+    </div>
+
+    <div class="text">
+        <h3>WEBSITE DEVELOPER</h3>
+        <h1>I'm Frank <br>Utibe</h1>
+    </div>
+
+    <div class="link">
+        <div class="t1"> 
+             <a href="#">MORE ABOUT ME<i class="fa fa-long-arrow-right" aria-hidden="false"></i></a> 
+        </div>
+
+       <div class="t2">
+        <a href="#">HIRE ME<i class="fa fa-long-arrow-right" aria-hidden="false"></i></a>
+       </div>
+    </div>
+
+
+
+
+
+    <script>
+
+        function openNav(){
+            var x= document.getElementById('icon');
+            var y= document.getElementById('navlinks');
+            y.style.display='block';
+        }
+
+        function closeNav(){
+            var z=document.getElementById('icon2');
+            var t=document.getElementById('navlinks');
+            t.style.display='none';
+        }
+
+
+    </script>
+    
+</body>
+
+
+</html>
+
+

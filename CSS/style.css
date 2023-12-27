@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    background-color:whitesmoke ;
+
+}
+
+
+
+
+.logo{
+position: absolute;
+bottom: 450px;
+margin-left: 25px;
+border: solid black 2px;
+
+}
+.text h3{
+    margin-top: 150px;
+    color:#f7d708 ;
+    margin-left: 30px;
+    font-weight: 900;
+}
+
+h1{
+    font-size: 5.6em;
+    margin-left: 25px;
+    font-family: sans-serif;
+}
+.link{
+    display: flex;
+    margin-left: 10px;
+}
+.link .t1{
+    margin: 20px;
+    border: solid skyblue 2px;
+    background-color: #d3c24d;
+    padding: 15px 25px;
+}
+.t1 a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.link .t2{
+    margin: 20px;
+    border: solid skyblue 2px;
+    background-color: white;
+    padding: 15px 25px;
+}
+
+.t2 a {
+    color:black;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+}
+
+.image-header{
+    width: 50%;
+    height:100%;
+    top: 0;
+    position: absolute;
+    left: 640px;
+    background-color:#D5C455;
+    overflow-x: hidden;
+}
+ .image1 {
+    width: 100%;
+    display:inline-flex;
+    animation: slide 7s infinite;
+    
+}
+
+img{
+    width: 100%;
+}
+
+.navlinks{
+    position: absolute;
+    width: 30%;
+    height: 60%;
+    background-color: aliceblue;
+    bottom: 200;
+    left:320;
+    display: none;
+    z-index: 1;border-radius: 10px;
+
+}
+
+
+.navlinks ul li{
+    padding: 13px 5px;
+    list-style-type: none;
+}
+
+.navlinks ul li a{
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+}
+ .navlinks a:active{
+    color: #f7d708;
+
+    
+}
+
+.navlinks li:hover{
+    background-color: aqua;
+    width: 100%;
+    border-radius: 10px;
+}
+.fa-times{
+    font-size: 1.1em;
+}
+
+
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+
+    }
+    25%{
+        transform: translateX(-100%);
+    }
+    30%{
+        transform:translateX(-100%);
+    }
+
+    50%{
+        transform: translateX(-200%);
+
+    }
+
+    75%{
+        transform: translateX(-200%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+
+#icon{
+    position: absolute;
+    left: 1050px;
+    bottom: 500px;
+    opacity: 0.5;
+    cursor: pointer;
+    background-color: black;
+    transition: 5s;
+}
+
+.fa-bars{
+    color: white;
+    font-size: 1.1em;
+    
+}
+#icon2{
+    position: absolute;
+    bottom: 250;
+    left: 150;
+    cursor: pointer;
+}
